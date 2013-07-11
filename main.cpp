@@ -46,6 +46,58 @@ void kaca()
     glutSolidCube(4.2f);
     glPopMatrix();
 }
+
+void jam()
+{
+    //bulatan jam
+    glColor3f(1.0, 0.2, 0.5);
+    glPushMatrix();
+    glTranslatef(0.0, 24, z); //untuk mengatur koordinat 3d
+    glScalef(1,1,1.0); //untuk mengatur ukuran benda
+    glutSolidSphere(2, 20, 10);
+    glPopMatrix();
+
+    //penopang jam kanan
+    glColor3f(1, 1, 1);
+    glPushMatrix();
+    glTranslatef(2, 22.5, z); //untuk mengatur koordinat 3d
+    glScalef(0.1,0.7,0.1); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //penopang jam kiri
+    glColor3f(1, 1, 1);
+    glPushMatrix();
+    glTranslatef(-2, 22.5, z); //untuk mengatur koordinat 3d
+    glScalef(0.1,0.7,0.1); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //penopang jam bawah
+    glColor3f(1, 1, 1);
+    glPushMatrix();
+    glTranslatef(0, 21.5, z); //untuk mengatur koordinat 3d
+    glScalef(1.2, 0.1, 0.1); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //jarum jam
+    glColor3f(1, 1, 0.2);
+    glPushMatrix();
+    glTranslatef(0.58, 24, z);   //untuk mengatur koordinat 3d
+    glScalef(0.29,0.05,0);       //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+     //jarum menit
+    glColor3f(1, 1, 0.2);
+    glPushMatrix();
+    glTranslatef(0.05, 24.8, z);   //untuk mengatur koordinat 3d
+    glScalef(0.05,0.40,0);       //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+}
+
 void tembok()
 {
     glColor3f(0.6, 0.3, 0);
