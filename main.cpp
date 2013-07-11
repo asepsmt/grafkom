@@ -56,6 +56,11 @@ void tembok()
     glPopMatrix();
 }
 
+void timer(int value){
+    glutPostRedisplay();
+    glutTimerFunc(25,timer,0);
+}
+
 void display(void)
 {
 	
@@ -122,6 +127,7 @@ int main(int argc,char **argv)
 	gluOrtho2D(-320., 320., -240.0, 240.0);
 	glutIdleFunc(tampil);
 	glutKeyboardFunc(myKeyboard);
+	glutTimerFunc(25, timer, 0);
 	glutMainLoop();
 	return(0);
 }
