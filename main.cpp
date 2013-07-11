@@ -1135,6 +1135,75 @@ void batubata()
     glPopMatrix();
 }
 
+void tiang()
+{
+    //TIANG
+    //Tiang Kiri Depan
+    glColor3f(0.5, 0.5, 0.5);
+    glPushMatrix();
+    glTranslatef(-7.5, 5.0, z+ 2.5);
+    glScalef(0.15,7.0,0.25);
+    glutSolidCube(4.5f);
+    glPopMatrix();
+
+    //Tiang Kiri Belakang
+    glPushMatrix();
+    glTranslatef(-7.5, 5.0, z-2.5);
+    glScalef(0.15,7.0,0.25);
+    glutSolidCube(4.5f);
+    glPopMatrix();
+
+    //Tiang Kanan Depan
+    glPushMatrix();
+    glTranslatef(7.5, 5.0, z+2.5);
+    glScalef(0.15,7.0,0.25);
+    glutSolidCube(4.5f);
+    glPopMatrix();
+
+    //Tiang Kanan Belakang
+    glPushMatrix();
+    glTranslatef(7.5, 5.0, z-2.5);
+    glScalef(0.15,7.0,0.25);
+    glutSolidCube(4.5f);
+    glPopMatrix();
+
+    glColor3f(0.0, 0.0, 0);
+    //rak 1
+    glPushMatrix();
+    glTranslatef(0.0, 0.0, z);
+    glScalef(3.0,0.09,1.5);
+    glutSolidCube(6.0f);
+    glPopMatrix();
+
+    //rak2
+    glPushMatrix();
+    glTranslatef(0.0, -7.0, z);
+    glScalef(3.0,0.09,1.5);
+    glutSolidCube(6.0f);
+    glPopMatrix();
+
+    //rak3
+    glPushMatrix();
+    glTranslatef(0.0, 7.0, z);
+    glScalef(3.0,0.09,1.5);
+    glutSolidCube(6.0f);
+    glPopMatrix();
+
+    //rak4
+    glPushMatrix();
+    glTranslatef(0.0, 14.0, z);
+    glScalef(3.0,0.09,1.5);
+    glutSolidCube(6.0f);
+    glPopMatrix();
+
+    //rak5
+    glPushMatrix();
+    glTranslatef(0.0, 21.0, z);
+    glScalef(3.0,0.09,1.5);
+    glutSolidCube(6.0f);
+    glPopMatrix();
+}
+
 void timer(int value){
     glutPostRedisplay();
     glutTimerFunc(25,timer,0);
