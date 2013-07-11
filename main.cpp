@@ -46,6 +46,15 @@ void kaca()
     glutSolidCube(4.2f);
     glPopMatrix();
 }
+void tembok()
+{
+    glColor3f(0.6, 0.3, 0);
+    glPushMatrix();
+    glTranslatef(0.0, 16, z -7);
+    glScalef(10,13,1.0);
+    glutSolidCube(4.2f);
+    glPopMatrix();
+}
 
 void display(void)
 {
