@@ -56,6 +56,1033 @@ void tembok()
     glPopMatrix();
 }
 
+void batubata()
+{
+    //batu bata
+    //baris 1
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 42.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 42.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 42.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 42.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 42.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 42.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris2
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 40, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 3
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 37.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 37.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 37.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 37.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 37.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 37.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris4
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 35, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 5
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 32.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 32.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 32.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 32.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 32.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 32.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris6
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 30, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 7
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 27.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 27.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 27.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 27.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 27.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 27.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris8
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 25, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 25, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 25,z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 25, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 25, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 25, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 25, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 9
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 22.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 22.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 22.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 22.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 22.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 22.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris10
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 20, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 11
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 17.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 17.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 17.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 17.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 17.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 17.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 12
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 15, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 13
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 12.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 12.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 12.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 12.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 12.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 12.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 14
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 10, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 15
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 16
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 5, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 17
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, 2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, 2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, 2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, 2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, 2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, 2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 18
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, 0, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 19
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, -2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, -2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, -2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, -2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, -2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, -2.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 20
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, -5, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris 21
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-17.5, -7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-10.5, -7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(-3.5, -7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(3.5, -7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(10.5, -7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6,0, 0);
+    glPushMatrix();
+    glTranslatef(17.5, -7.5, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    //baris22
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-19.5, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-14.0, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(-7.0, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(0, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(7.0, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(14.0, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(1.5,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+
+    glColor3f(0.6, 0.0, 0);
+    glPushMatrix();
+    glTranslatef(19.5, -10, z -7); //untuk mengatur koordinat 3d
+    glScalef(0.9,0.5,0); //untuk mengatur ukuran benda
+    glutSolidCube(4.2f);
+    glPopMatrix();
+}
+
 void timer(int value){
     glutPostRedisplay();
     glutTimerFunc(25,timer,0);
