@@ -1,0 +1,113 @@
+Trakbuku
+v7
+r0
+t395228457.307103
+cCheck dependencies
+cCompileC build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o /Users/asepmtaufik/grafkom/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/asepmtaufik/grafkom/build/Debug/rakbuku normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004B99A23900000000000000EE
+t1268359737
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004D5A2790000000000001A494
+t1297754000
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/Headers/glut.h
+c000000004B44A0F3000000000000578C
+t1262788851
+s22412
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004D5A2791000000000000DB14
+t1297754001
+s56084
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/Users/asepmtaufik/grafkom/build/Debug/rakbuku
+t1373535657
+s15248
+
+N/Users/asepmtaufik/grafkom/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o
+t1373534938
+s8020
+
+N/Users/asepmtaufik/grafkom/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/rakbuku.LinkFileList
+c0000000051DE7DA90000000000000060
+t1373535657
+s96
+
+N/Users/asepmtaufik/grafkom/main.cpp
+c0000000051DE7ADA00000000000007B9
+t1373534938
+s1977
+i<GLUT/glut.h>
+i<stdio.h>
+
+N/Users/asepmtaufik/rakbuku/build/Debug/rakbuku
+t1373534938
+s15248
+
+N/Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o
+t1373534938
+s8020
+
+N/Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/rakbuku.LinkFileList
+c0000000051DE4AB10000000000000060
+t1373522609
+s96
+
+N/Users/asepmtaufik/rakbuku/main.cpp
+c0000000051DE7ADA00000000000007B9
+t1373534938
+s1977
+i<GLUT/glut.h>
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies395228457#395228457#0(0"0(0#1#0"8614177056#0"0#
+
+CCompileC build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o /Users/asepmtaufik/grafkom/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o /Users/asepmtaufik/rakbuku/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s395227738.534080
+e395227738.600172
+r1
+xCompileC
+xbuild/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o
+x/Users/asepmtaufik/rakbuku/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/asepmtaufik/rakbuku/main.cpp395227738#395227738#0(0"0(0#0#35"/Users/asepmtaufik/rakbuku/main.cpp8615235648#1159"    cd /Users/asepmtaufik/rakbuku    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/rakbuku-generated-files.hmap -I/Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/rakbuku-own-target-headers.hmap -I/Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/rakbuku-all-target-headers.hmap -iquote /Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/rakbuku-project-headers.hmap -F/Users/asepmtaufik/rakbuku/build/Debug -I/Users/asepmtaufik/rakbuku/build/Debug/include -I/Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/DerivedSources/x86_64 -I/Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/DerivedSources -c /Users/asepmtaufik/rakbuku/main.cpp -o /Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/asepmtaufik/grafkom/build/Debug/rakbuku normal x86_64
+s395228457.141939
+e395228457.307029
+r1
+xLd
+x/Users/asepmtaufik/grafkom/build/Debug/rakbuku
+xnormal
+xx86_64
+lSLF07#2@51"Link /Users/asepmtaufik/grafkom/build/Debug/rakbuku395228457#395228457#0(0"0(0#0#0"8601269984#472"    cd /Users/asepmtaufik/grafkom    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/asepmtaufik/grafkom/build/Debug -F/Users/asepmtaufik/grafkom/build/Debug -filelist /Users/asepmtaufik/grafkom/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/rakbuku.LinkFileList -mmacosx-version-min=10.6 -framework OpenGL -framework GLUT -o /Users/asepmtaufik/grafkom/build/Debug/rakbuku0#
+
+CLd /Users/asepmtaufik/rakbuku/build/Debug/rakbuku normal x86_64
+s395227738.600248
+e395227738.744478
+r1
+xLd
+x/Users/asepmtaufik/rakbuku/build/Debug/rakbuku
+xnormal
+xx86_64
+lSLF07#2@51"Link /Users/asepmtaufik/rakbuku/build/Debug/rakbuku395227738#395227738#0(0"0(0#0#0"8615457088#472"    cd /Users/asepmtaufik/rakbuku    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/asepmtaufik/rakbuku/build/Debug -F/Users/asepmtaufik/rakbuku/build/Debug -filelist /Users/asepmtaufik/rakbuku/build/rakbuku.build/Debug/rakbuku.build/Objects-normal/x86_64/rakbuku.LinkFileList -mmacosx-version-min=10.6 -framework OpenGL -framework GLUT -o /Users/asepmtaufik/rakbuku/build/Debug/rakbuku0#
+
