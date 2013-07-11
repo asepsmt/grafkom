@@ -1419,6 +1419,15 @@ void timer(int value){
     glutTimerFunc(25,timer,0);
 }
 
+void resize(void)
+{
+	glClearColor(1.0,9.0,1.0,0.0); //background
+	glShadeModel(GL_MODELVIEW);
+	glMatrixMode(GL_PROJECTION);
+	glLoadIdentity();
+	gluPerspective(50.0,1.5,10.0,1000.0);	
+}
+
 void display(void)
 {
 	
@@ -1426,9 +1435,7 @@ void display(void)
 	glMatrixMode(GL_MODELVIEW);
 	glClearColor(1,1,1,1);
 	glLoadIdentity();
-	
 	glTranslatef(0,0,-100);
-	
 	glFlush();
 	glutSwapBuffers();
 	
@@ -1439,7 +1446,7 @@ void tampil()
 	display();
 }
 
-void myKeyboard(unsigned char key, int x, int y){
+void Keyboard(unsigned char key, int x, int y){
 	if (key =='a') z+=1;
 	else if (key == 'd') z-=1;
 	else if (key == 'x') {
@@ -1479,12 +1486,13 @@ int main(int argc,char **argv)
 	glutInitDisplayMode(GLUT_DOUBLE|GLUT_RGBA|GLUT_DEPTH);
 	glutInitWindowPosition(10,10);
 	glutInitWindowSize(1000,700);
-	glutCreateWindow("RAK");
+	glutCreateWindow("GAMBAR 3D RAK BUKU");
 	glClearColor(0.5,0.5,0.0,0.0);
 	glutDisplayFunc(display);
 	gluOrtho2D(-320., 320., -240.0, 240.0);
 	glutIdleFunc(tampil);
-	glutKeyboardFunc(myKeyboard);
+	resize();
+	glutKeyboardFunc(Keyboard);
 	glutTimerFunc(25, timer, 0);
 	glutMainLoop();
 	return(0);
