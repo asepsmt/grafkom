@@ -1436,9 +1436,9 @@ void display(void)
 	glClearColor(1,1,1,1);
 	glLoadIdentity();
 	glTranslatef(0,0,-100);
+	rakbuku();
 	glFlush();
 	glutSwapBuffers();
-	
 }
 
 void tampil()
@@ -1480,6 +1480,7 @@ void Keyboard(unsigned char key, int x, int y){
 		sudut-=-5;
 	}
 }
+
 int main(int argc,char **argv)
 {
 	glutInit(&argc,argv);
