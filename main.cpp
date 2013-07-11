@@ -1446,40 +1446,54 @@ void tampil()
 	display();
 }
 
-void Keyboard(unsigned char key, int x, int y){
-	if (key =='a') z+=1;
-	else if (key == 'd') z-=1;
+void myKeyboard(unsigned char key, int x, int y){
+	if (key =='w') z+=1;
+	else if (key == 's') z-=1;
 	else if (key == 'x') {
 		x1=1;
 		y1=0;
 		z1=0;
 		sudut+=5;
 	}
-	else if (key == 'y') {
-		y1=1;
-		x1=0;
-		z1=0;
-		sudut+=-5;
+
+else if (key == 'c') {
+	y1=1;
+	x1=0;
+	z1=0;
+	sudut+=-5;
 	}
-	else if (key == 't') {
-		y1=1;
-		x1=0;
-		z1=0;
-		sudut-=-5;
+
+else if (key == 'z') {
+	y1=1;
+	x1=0;
+	z1=0;
+	sudut-=-5;
 	}
-	else if (key == 'z') {
-		y1=0;
-		x1=0;
-		z1=1;
-		sudut+=-5;
+
+else if (key == 'f') {
+	y1=0;
+	x1=0;
+	z1=1;
+	sudut+=-5;
 	}
-	else if (key == 'c') {
-		y1=0;
-		x1=0;
-		z1=1;
-		sudut-=-5;
+
+else if (key == 'g') {
+	y1=0;
+	x1=0;
+	z1=1;
+	sudut-=-5;
 	}
 }
+
+//keterangan keyboard
+/*zoom = w
+outzoom = s
+turning vertical = x
+turning horizontal(to right) = c
+turning horizontal(to left) = z
+memutar searah jarum jam = f
+memutar berlawanan jarum jam = g
+*/
 
 int main(int argc,char **argv)
 {
