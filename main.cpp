@@ -6,7 +6,7 @@ int x1=0, y1=0, sudut=0, z1=0;
 
 void kaca()
 {
-    //atas
+    //Bagian atas
     glColor3f(0, 0, 0);
     glPushMatrix();
     glTranslatef(0, 43, z-6); 
@@ -14,7 +14,7 @@ void kaca()
     glutSolidCube(4.2f);
     glPopMatrix();
 	
-    //kanan
+    //Bagian kanan
     glColor3f(0, 0, 0);
     glPushMatrix();
     glTranslatef(5.85, 35.4, z-6); 
@@ -22,7 +22,7 @@ void kaca()
     glutSolidCube(4.2f);
     glPopMatrix();
 	
-    //kiri
+    //Bagian kiri
     glColor3f(0, 0, 0);
     glPushMatrix();
     glTranslatef(-6.05, 35.4, z-6); 
@@ -30,7 +30,7 @@ void kaca()
     glutSolidCube(4.2f);
     glPopMatrix();
 	
-    //bawah
+    //Bagian bawah
     glColor3f(0, 0, 0);
     glPushMatrix();
     glTranslatef(0, 28.5, z-6); 
@@ -38,7 +38,7 @@ void kaca()
     glutSolidCube(4.2f);
     glPopMatrix();
 	
-    //kaca
+    //Cermin
     glColor3f(0.5, 0.5, 0.5);
     glPushMatrix();
     glTranslatef(-0.1, 35.8, z-6); 
