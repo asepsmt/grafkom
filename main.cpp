@@ -93,7 +93,7 @@ void jam()
     glColor3f(1, 1, 0.2);
     glPushMatrix();
     glTranslatef(0.05, 24.8, z);   //untuk mengatur koordinat 3d
-    glScalef(0.05,0.40,0);       //untuk mengatur ukuran benda
+    glScalef(0.05,0.40,0);         //untuk mengatur ukuran benda
     glutSolidCube(4.2f);
     glPopMatrix();
 }
@@ -1446,7 +1446,7 @@ void tampil()
 	display();
 }
 
-void myKeyboard(unsigned char key, int x, int y){
+void Keyboard(unsigned char key, int x, int y){
 	if (key =='w') z+=1;
 	else if (key == 's') z-=1;
 	else if (key == 'x') {
@@ -1485,8 +1485,9 @@ else if (key == 'g') {
 	}
 }
 
-//keterangan keyboard
-/*zoom = w
+/*
+keterangan keyboard
+zoom = w
 outzoom = s
 turning vertical = x
 turning horizontal(to right) = c
@@ -1512,4 +1513,3 @@ int main(int argc,char **argv)
 	glutMainLoop();
 	return(0);
 }
-
